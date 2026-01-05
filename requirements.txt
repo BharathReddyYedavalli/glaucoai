@@ -1,7 +1,9 @@
 fastapi
 uvicorn
+gunicorn
+gradio
 torch
 torchvision
-opencv-python
 pillow
+opencv-python-headless
 numpy
