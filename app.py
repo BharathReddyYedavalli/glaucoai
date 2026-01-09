@@ -6,7 +6,7 @@ demo = gr.Interface(
     inputs=gr.Image(type="filepath", label="Upload Retinal Image"),
     outputs="text",
     title="GlaucoAI - Glaucoma Detection with Grad-CAM",
-    description="Upload a retinal image to detect glaucoma and view Grad-CAM visualization."
+    description="Upload a retinal fundus image to detect glaucoma and view Grad-CAM visualization."
 )
 
-demo.launch()
+app = gr.mount_gradio_app(demo, path="/")

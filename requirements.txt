@@ -1,10 +1,7 @@
-fastapi
-uvicorn
-gunicorn
 gradio
 torch
 torchvision
 pillow
-opencv-python-headless
 numpy
+opencv-python-headless
 matplotlib
