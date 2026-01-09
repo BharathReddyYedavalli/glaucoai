@@ -1,7 +1,7 @@
-gradio
 torch
 torchvision
-pillow
+gradio
 numpy
+pillow
 opencv-python-headless
 matplotlib

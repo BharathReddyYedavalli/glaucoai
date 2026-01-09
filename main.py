@@ -4,6 +4,8 @@ import torch.nn as nn
 from torchvision.models import efficientnet_b0
 from torchvision import transforms
 from PIL import Image
+import matplotlib
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
 import cv2
